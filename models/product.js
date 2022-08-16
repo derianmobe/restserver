@@ -31,6 +31,9 @@ const PorductSchema = Schema({
     available: {
         type: String,
         default: true
+    },
+    image: {
+        type: String
     }
 })
 
